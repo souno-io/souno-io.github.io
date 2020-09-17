@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7e8174f-5740-4871-b60f-1ed3cc91e400" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/foot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/scripts-main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/tracking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-10-31-welcome-to-massively-the-jekyll-theme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/base/_page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_intro.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_navPanel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_skel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrollex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrolly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/skel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hdeURgOg7wztEvXIjrs8n1FwM7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7e8174f-5740-4871-b60f-1ed3cc91e400" name="Default Changelist" comment="" />
+      <created>1600345413886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600345413886</updated>
+      <workItem from="1600345415908" duration="199000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="26" key="SettingsEditor" timestamp="1600345615378">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="446" y="26" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1600345615378" />
+  </component>
+</project>
