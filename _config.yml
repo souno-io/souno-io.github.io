@@ -1,68 +1,114 @@
-# Site
-title:              SOUNO个人博客
-bio:                '来自于SOUNO-IO的个人技术博客'
-description:        "来自于SOUNO-IO的个人技术博客"
-locale:             zh_CN
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+# Site settings
+title: SOUNO-IO BLOG
+SEOTitle: SOUNO-IO BLOG | 叶兴
+header-img: img/post-bg-desk.jpg
+email: souno@qq.com
+description: "Every failure is leading towards success."
+keyword: "SOUNO, SOUNO Blog, 莫临王朝, SOUNO.IO, 叶兴, CTF, Apple, iPhone"
+url: "http://qiubaiying.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
-# Comments
-disqus_shortname:   default
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Goals determine what you going to be!"
+sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-# Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
 
-# personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              souno@qq.com # change this to your email to receive free emails for your contact submissions via Slapform.com
 
-# Other
-background_image:   /images/bg.jpg
-# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-slapform_thankyou_page: /thank-you
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+zhihu_username:     souno
+github_username:    souno
+facebook_username:  souno
+jianshu_username:   souno
+#twitter_username:   qiubaiying
 
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
 
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
 
 # Gems
-gems:
-  - jekyll-mentions
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
 
-paginate: 6
-paginate_path: "/blog/page:num/"
 
-jekyll-mentions:
-    base_url: https://github.com
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  repo: souno-io.github.io    #仓库名称
+  owner: souno-io    #github用户名
+  admin: souno
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_domain: souno.io               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "SOUNO",
+        href: "http://souno.cn"
+    },{
+        title: "简书·BY",
+        href: "http://www.jianshu.com/u/e71990ada2fd"
+    },{
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
+]
